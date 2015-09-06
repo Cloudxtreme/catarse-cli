@@ -1,0 +1,34 @@
+{
+  "name": "catarse-cli",
+  "version": "0.0.1",
+  "description": "A cli tool to help working with catarse.js components.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catarse/catarse-cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "tool",
+    "catarse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catarse/catarse-cli/issues"
+  },
+  "homepage": "https://github.com/catarse/catarse-cli#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.11.2"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "mustache": "^2.1.3"
+  }
+}
